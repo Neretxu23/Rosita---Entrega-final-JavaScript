@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alfombra Verde",
+    "image": "./img/img-alfombra-verde.jpg",
+    "price": 10.99
+  },
+  {
+    "id": 2,
+    "name": "Lampara Industrial",
+    "image": "./img/img-lamparas.jpg",
+    "price": 9.99
+  },
+  {
+    "id": 3,
+    "name": "Mesa Industrial",
+    "image": "./img/img-mesa.jpg",
+    "price": 12.99
+  },
+  {
+    "id": 4,
+    "name": "Sillón Gris",
+    "image": "./img/img-sillon-gris.jpg",
+    "price": 12.99
+  }
+]

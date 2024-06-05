@@ -1,0 +1,201 @@
+/**/
+
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DAD3BE;
+}
+
+main {
+    margin: 2rem 4rem 2rem 4rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin: 2rem 4rem 2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------------*/
+
+/*Header*/
+header {
+    background-color: #254336;
+    color: #fff;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 3rem;
+    width: 4rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*------------------------------------------------*/
+
+/*Icono carrito*/
+#cart-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+#cart-icon i {
+    font-size: 2rem;
+}
+
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+/**/
+
+/*Productos*/
+h2 {
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    margin: 1rem;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+main li {
+    margin: 2rem;
+}
+
+.product {
+    width: 13.5rem;
+    height: 19rem;
+    background-color: #6B8A7A;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main img {
+    height: 12rem;
+    width: 12rem;
+    margin: 0.5rem;
+}
+
+main button {
+    margin-bottom: 0.5rem;
+    background-color: #DAD3BE;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+main button:hover {
+    background-color: #B7B597;
+}
+
+/*------------------------------------------------*/
+
+/*Carrito*/
+.carrito {
+    background-color: none;
+    width: 50rem;
+    height: auto;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: #6B8A7A;
+    margin-bottom: 3rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.compra-b {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #DAD3BE;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.compra-b:hover {
+    background-color: #B7B597;
+}
+
+/*------------------------------------------------*/
+
+/*Sobre nosotros*/
+.nosotros-p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/*------------------------------------------------*/
+
+/*Contacto*/
+.contacto-p {
+    height: 5rem;
+    width: 15rem;
+    font-size: large;
+}
+
+/*------------------------------------------------*/
+
+/*Mensaje*/
+.mensaje-container {
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*------------------------------------------------*/

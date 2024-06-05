@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosita - Muebles para el hogar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        fetch('products.json')</script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="./img/img-logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="#products">Catálogo</a> </li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#carrito">🛒
+                        <div id="cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count">0</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section id="products">
+            <h2>Nuestros productos</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <img src="img/img-mesa.jpg" alt="Mesa">
+                        <h3>Mesa Industrial</h3>
+                        <p>Precio: 12.99€</p>
+                        <button class="add-to-cart" data-id="3" data-price="12.99">Añadir al Carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="img/img-alfombra-verde.jpg" alt="Alfombra img-alfombra-verde">
+                        <h3>Alfombra Verde</h3>
+                        <p>Precio: 10.99€</p>
+                        <button class="add-to-cart" data-id="1" data-price="10.99">Añadir al Carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="./img/img-lamparas.jpg" alt="Lámpara Industrial">
+                        <h3>Lámpara Industrial</h3>
+                        <p>Precio: 9.99€</p>
+                        <button class="add-to-cart" data-id="2" data-price="9.99">Añadir al Carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <img src="./img/img-sillon-gris.jpg" alt="Sillón gris">
+                        <h3>Sillón Gris</h3>
+                        <p>Precio: 12.99€</p>
+                        <button class="add-to-cart" data-id="4" data-price="12.99">Añadir al Carrito</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div id="carrito" class="carrito">
+            <h2>Tu Carrito</h2>
+            <div class="cart-content">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-total">
+                <p>Total:</p>
+                <span class="cart-total-amount">0.00€</span>
+            </div>
+            <button class="compra-b">Comprar Ahora</button>
+        </div>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p class="nosotros-p">Rosita es una página web que ofrece muebles de alta calidad diseñados para elevar
+                cualquier espacio del
+                hogar con elegancia y estilo. Con un enfoque en la artesanía excepcional y materiales de primera
+                calidad, Rosita se distingue por su compromiso con la excelencia en cada pieza que ofrece. Desde
+                sofisticados sofás hasta mesas de comedor impresionantes, cada artículo en Rosita refleja un cuidadoso
+                proceso de diseño y fabricación para brindar a los clientes una experiencia de compra inigualable.</p>
+            <p class="nosotros-p">Además de su amplia gama de muebles exquisitos, Rosita se esfuerza por ofrecer un
+                servicio al cliente
+                excepcional, brindando asesoramiento experto y atención personalizada en cada paso del proceso de
+                compra. Ya sea que los clientes estén buscando agregar un toque de lujo a su sala de estar o transformar
+                por completo su hogar con muebles de calidad superior, Rosita se posiciona como el destino definitivo
+                para quienes buscan lo mejor en diseño y funcionalidad en el mundo del mobiliario de alta gama.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contáctanos</h2>
+            <div class="contacto-p">
+                <p><b>Correo:</b> info@rosita.com</p>
+                <p><b>Teléfono:</b> 111 22 33 44</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rosita S.L. Todos los derechos reservados <b>@Nerea Gómez Garrido</b></p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+
+</html>
